@@ -4,3 +4,6 @@
 [submodule "products_service"]
 	path = products_service
 	url = https://github.com/gruszm/Products-Service
+[submodule "carts_service"]
+	path = carts_service
+	url = https://github.com/gruszm/Carts-Service
