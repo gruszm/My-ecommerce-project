@@ -1,3 +1,6 @@
 [submodule "api_gateway"]
 	path = api_gateway
 	url = https://github.com/gruszm/API-Gateway
+[submodule "products_service"]
+	path = products_service
+	url = https://github.com/gruszm/Products-Service
