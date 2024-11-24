@@ -1,9 +1,12 @@
 [submodule "api_gateway"]
 	path = api_gateway
 	url = https://github.com/gruszm/API-Gateway
+	branch = master
 [submodule "products_service"]
 	path = products_service
 	url = https://github.com/gruszm/Products-Service
+	branch = master
 [submodule "carts_service"]
 	path = carts_service
 	url = https://github.com/gruszm/Carts-Service
+	branch = master
