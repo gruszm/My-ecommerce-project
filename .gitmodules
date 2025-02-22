@@ -10,7 +10,7 @@
 	path = carts_service
 	url = https://github.com/gruszm/Carts-Service
 	branch = master
-[submodule "ecommerce_frontend"]
-	path = ecommerce_frontend
+[submodule "frontend_service"]
+	path = frontend_service
 	url = https://github.com/gruszm/Ecommerce-Frontend.git
 	branch = master
