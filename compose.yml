@@ -68,6 +68,6 @@ services:
         ports:
             - 27017:8081
         environment:
-            - ME_CONFIG_MONGODB_URL=mongodb://users_db:27017
+            - ME_CONFIG_MONGODB_URL=mongodb://products_db:27017
         depends_on:
-            - users_db
+            - products_db
