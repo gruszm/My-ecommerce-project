@@ -14,3 +14,7 @@
 	path = frontend_service
 	url = https://github.com/gruszm/Ecommerce-Frontend.git
 	branch = master
+[submodule "profile_service"]
+	path = profile_service
+	url = https://github.com/gruszm/Profile-Service.git
+    branch = master
