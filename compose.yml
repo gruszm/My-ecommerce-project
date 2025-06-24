@@ -63,28 +63,28 @@ services:
             - POSTGRES_DB=carts_db
         expose:
             - 5432
-    profile-service:
+    profiles-service:
         build:
-            context: ./profile_service
+            context: ./profiles_service
             args:
-                PROFILE_SERVICE_PORT: 8083
-                PROFILE_DB_SERVICE_NAME: profile_db
-                PROFILE_DB_SERVICE_PORT: 5432
-                PROFILE_DB_USER: root
-                PROFILE_DB_PASSWORD: password
-                PROFILE_DB_NAME: profile_db
+                PROFILES_SERVICE_PORT: 8083
+                PROFILES_DB_SERVICE_NAME: profiles_db
+                PROFILES_DB_SERVICE_PORT: 5432
+                PROFILES_DB_USER: root
+                PROFILES_DB_PASSWORD: password
+                PROFILES_DB_NAME: profiles_db
         ports:
             - 8083:8083
         depends_on:
-            - profile_db
+            - profiles_db
             - api_gateway
-    profile_db:
+    profiles_db:
         image: postgres
         shm_size: 128mb
         environment:
             - POSTGRES_USER=root
             - POSTGRES_PASSWORD=password
-            - POSTGRES_DB=profile_db
+            - POSTGRES_DB=profiles_db
         expose:
             - 5432
     mongo_express:
