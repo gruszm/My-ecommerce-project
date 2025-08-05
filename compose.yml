@@ -87,6 +87,13 @@ services:
             - POSTGRES_DB=profiles_db
         expose:
             - 5432
+    frontend:
+        build:
+            context: ./frontend_service
+        ports:
+            - 4000:4000
+        depends_on:
+            - api_gateway
     mongo_express:
         image: mongo-express
         ports:
