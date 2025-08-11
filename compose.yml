@@ -87,9 +87,12 @@ services:
             - POSTGRES_DB=profiles_db
         expose:
             - 5432
-    frontend:
+    frontend-service:
         build:
             context: ./frontend_service
+            args:
+                - REACT_APP_GATEWAY=localhost
+                - REACT_APP_GATEWAY_PORT=8080
         ports:
             - 4000:4000
         depends_on:
