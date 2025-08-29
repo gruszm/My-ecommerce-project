@@ -18,3 +18,6 @@
 	path = profiles_service
 	url = https://github.com/gruszm/Profiles-Service.git
     branch = master
+[submodule "orders_service"]
+	path = orders_service
+	url = https://github.com/gruszm/Orders-Service.git

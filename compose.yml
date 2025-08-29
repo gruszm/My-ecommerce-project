@@ -87,6 +87,21 @@ services:
             - POSTGRES_DB=profiles_db
         expose:
             - 5432
+    orders-service:
+        build:
+            context: ./orders_service
+            args:
+                ORDERS_SERVICE_PORT: 8084
+                ORDERS_DB_SERVICE_NAME: orders_db
+        ports:
+            - 8084:8084
+        depends_on:
+            - api_gateway
+    orders_db:
+        image: mongo
+        hostname: orders_db
+        expose:
+            - 27017
     frontend-service:
         build:
             context: ./frontend_service
@@ -102,6 +117,6 @@ services:
         ports:
             - 27017:8081
         environment:
-            - ME_CONFIG_MONGODB_URL=mongodb://products_db:27017
+            - ME_CONFIG_MONGODB_URL=mongodb://orders_db:27017
         depends_on:
-            - products_db
+            - orders_db
