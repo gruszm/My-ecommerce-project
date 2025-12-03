@@ -1,3 +1,7 @@
+<h1>Strona główna / Lista produktów</h1>
+
+<img width="3194" height="1646" alt="image" src="https://github.com/user-attachments/assets/93353a61-626a-4a20-9781-50f4978f2be0" />
+
 <h1>Admin panel</h1>
 
 <img width="3199" height="578" alt="Zrzut ekranu 2025-11-02 213135" src="https://github.com/user-attachments/assets/f45c3791-5648-4f8e-977c-e1e6ac35f71b" />
@@ -22,11 +26,17 @@
 
 <h2>Lista adresów użytkownika [grid-layout]</h2>
 
-<img width="3197" height="627" alt="Zrzut ekranu 2025-11-02 215002" src="https://github.com/user-attachments/assets/a62a78c7-f473-4d0d-aa05-6b16f57155b6" />
+<img width="3164" height="1635" alt="image" src="https://github.com/user-attachments/assets/d18b3e0c-5ff3-47d5-958b-f6a964873712" />
 
 <h1>Składanie zamówienia</h1>
 
 <h2>Koszyk</h2>
+
+<h3>New (wip)</h3>
+
+<img width="3163" height="1655" alt="image" src="https://github.com/user-attachments/assets/26dc3784-4dea-4c29-ad7a-91a265063d6d" />
+
+<h3>Old</h3>
 
 <img width="3199" height="1525" alt="Zrzut ekranu 2025-11-02 215116" src="https://github.com/user-attachments/assets/ecec92b3-84bf-4ac9-ba46-83c6c0fd7858" />
 
